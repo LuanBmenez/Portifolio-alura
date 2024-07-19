@@ -12,12 +12,26 @@ body{
     color: #F6F6F6;
 }
 
-.destaque{
+.cabecalho-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+
+.cabecalho-menu{
+display: flex;
+gap: 80px;
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +47,10 @@ body{
 .apresentacao-conteudo-titulo{
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.destaque{
+    color: #22D4FD;
 }
 
 .apresentacao-conteudo-texto{
@@ -70,4 +88,14 @@ body{
 
 .apresentacao-links-r > :hover{
     background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    
 }
